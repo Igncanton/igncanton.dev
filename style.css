@@ -450,7 +450,7 @@ body {
 
 .cardBtn2 {
     width: 10em;
-    padding: 0.4em 1.8em 0.4em 1.8em;
+    padding: 0.4em 1em 0.4em 1em;
     color: var(--complementaryMain);
     border:var(--complementaryMain) 2px solid;
     background-color: transparent;
