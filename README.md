@@ -3,4 +3,6 @@ This is my own website (work in progress) where I'll be showing the projects tha
 </br>
 I love the design specially because it's all of my own, well, I'm not inventing anything new, it's fully inspired in a lot of websites, but I did it on my own and I love that fact.</br>
 </br>
+link to the gitHub page: https://igncanton.github.io/igncanton.dev/ </br>
+</br>
 #feelingproud #webdesign #webdev
