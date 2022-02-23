@@ -45,30 +45,33 @@ body {
     overflow-x: hidden;
 }
 
-::selection {
-    background: var(--complementaryMain);
-    color: var(--fontColorDark);
-}
-
 @keyframes bg-animation {
     0% {background-position: 0%}
     50% {background-position: 100%}
     100%{background-position: 0%}
 }
 
+/* ***** Text Selection Color ***** */
+::selection {
+    background: var(--complementaryMain);
+    color: var(--fontColorDark);
+}
+
 /* ***** ScrollBar Style ***** */
 body {
-    /* Foreground, Background */
     scrollbar-color: #999 #333;
   }
-  body::-webkit-scrollbar {
-    width: 10px; /* Mostly for vertical scrollbars */
-    height: 10px; /* Mostly for horizontal scrollbars */
+
+body::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px;
   }
-  body::-webkit-scrollbar-thumb { /* Foreground */
+
+body::-webkit-scrollbar-thumb
     background: #999;
   }
-  body::-webkit-scrollbar-track { /* Background */
+
+body::-webkit-scrollbar-track
     background: #333;
   }
 
